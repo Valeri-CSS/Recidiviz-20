@@ -1,0 +1,197 @@
+@media only screen and (min-width:768px) {
+    .burger-mobile-btn {
+        display: none;
+    }
+
+    .burger-menu-mobile-content {
+        background-color: transparent;
+        transform: translate(0);
+        right: 48px;
+        top: 21px;
+        left: unset;
+        padding: 0;
+        display: flex;
+        width: unset;
+        gap: 42px;
+    }
+
+    .burger-menu-mobile-item a {
+        margin: 0;
+    }
+
+    header .container .header img {
+        margin-top: -10px;
+        transform: translateX(0);
+        scale: unset;
+    }
+
+    .hero-titel {
+        max-width: 550px;
+    }
+
+    .hero-description {
+        max-width: 450px;
+    }
+
+    .hero-link-btn {
+        width: 38%;
+    }
+
+    .hero-list {
+        grid-template-columns: repeat(auto-fit, minmax(107px, 1fr));
+    }
+
+    .hero-items a::before {
+        width: 100px;
+    }
+
+    .steps-content-titel {
+        margin-top: 100px;
+        font-size: 41px;
+        font-weight: 300;
+        margin-bottom: 130px;
+    }
+
+    .steps-list {
+        gap: 213px;
+        position: relative;
+    }
+
+    .human-titel {
+        max-width: 271px;
+        font-weight: 300;
+    }
+
+    .human-description {
+        max-width: 265px;
+    }
+
+    .human-content {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 106px;
+    }
+
+    .info {
+        position: relative;
+    }
+
+    .background-left {
+        display: block;
+        float: left;
+        width: 27%;
+        height: 489px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .background-right {
+        display: block;
+        float: right;
+        width: 27%;
+        height: 489px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .info-content {
+        display: flex;
+        flex-direction: column;
+        height: 390px;
+        width: 46%;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .partners-content {
+        display: flex;
+        gap: 32px;
+        margin: 10px 0;
+    }
+
+    .information-titel {
+        width: 315px;
+        font-size: 32px;
+    }
+
+    .information-list {
+        width: 607px;
+        column-gap: 50px;
+    }
+
+    .information-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .media-partners-list {
+        justify-content: center;
+    }
+
+    .media-content-titel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .where-we-work-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .where-we-work-img {
+        width: 388px;
+    }
+
+    .where-we-work-titel {
+        font-size: 38px;
+    }
+
+    .where-we-work-description {
+        width: 229px;
+    }
+
+    .footer-bottom {
+        height: 111px;
+        align-items: center;
+        display: flex;
+    }
+
+    .footer-content {
+        position: relative;
+        justify-content: unset;
+    }
+
+    .footer-content .column:last-child {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .footer-bottom-content {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .footer-bottom-content img {
+        width: 22px;
+        margin-top: -39px;
+    }
+
+    .footer-bottom-list {
+        display: flex;
+        gap: 9px;
+        font-size: 11px;
+    }
+
+    .copyright {
+        padding-top: 0;
+    }
+
+}
